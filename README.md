@@ -38,13 +38,13 @@ python src/fetch_wikipedia.py
 ## Repository structure
 
 | Path | Contents |
-|---|---|
+|
 | `data/raw/` | Five Wikipedia texts + `private_document.txt` |
 | `src/` | Python scripts (fetching, extraction) |
 | `out/` | `triples.csv`, `kg.ttl` |
 | `queries/` | SPARQL queries `q1.rq`–`q6.rq` |
 | `results/` | Query results as CSV |
-| `eval/` | Wikidata exports, metrics, error analysis |
+| `eval/` | Wikidata exports, metrics,error analysis |
 | `screenshots/` | Fuseki evidence |
 
 ## Extraction rules
