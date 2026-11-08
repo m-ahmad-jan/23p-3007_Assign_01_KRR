@@ -1,0 +1,69 @@
+@prefix :     <http://example.org/kg/23p-3007/> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# ---------- What a Person must look like ----------
+:PersonShape a sh:NodeShape ;
+    sh:targetClass :Person ;
+
+    sh:property [
+        sh:path :bornIn ;
+        sh:maxCount 1 ;
+        sh:class :Place ;
+        sh:message "A person has at most one birthplace, and it must be a Place." ;
+    ] ;
+
+    sh:property [
+        sh:path :bornIn ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "This person has no recorded birthplace." ;
+    ] ;
+
+    sh:property [
+        sh:path :educatedAt ;
+        sh:class :Organization ;
+        sh:message "educatedAt must point to an Organization." ;
+    ] ;
+
+    sh:property [
+        sh:path :worksAt ;
+        sh:class :Organization ;
+        sh:message "worksAt must point to an Organization." ;
+    ] ;
+
+    sh:property [
+        sh:path :receivedAward ;
+        sh:class :Award ;
+        sh:message "receivedAward must point to an Award." ;
+    ] ;
+
+    sh:property [
+        sh:path :doctoralAdvisor ;
+        sh:class :Person ;
+        sh:maxCount 1 ;
+        sh:message "A person has at most one doctoral advisor, and it must be a Person." ;
+    ] ;
+
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+    ] .
+
+# ---------- Disjointness: no node may have two of these types ----------
+:PersonDisjointShape a sh:NodeShape ;
+    sh:targetClass :Person ;
+    sh:not [ sh:or ( [ sh:class :Place ] [ sh:class :Organization ] [ sh:class :Award ] ) ] ;
+    sh:message "A Person cannot also be a Place, Organization or Award." .
+
+:PlaceDisjointShape a sh:NodeShape ;
+    sh:targetClass :Place ;
+    sh:not [ sh:or ( [ sh:class :Organization ] [ sh:class :Award ] ) ] ;
+    sh:message "A Place cannot also be an Organization or Award." .
+
+:OrganizationDisjointShape a sh:NodeShape ;
+    sh:targetClass :Organization ;
+    sh:not [ sh:class :Award ] ;
+    sh:message "An Organization cannot also be an Award." .

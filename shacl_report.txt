@@ -1,0 +1,33 @@
+Validation Report
+Conforms: False
+Results (5):
+Validation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:message Literal("This person has no recorded birthplace.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path :bornIn ; sh:severity sh:Warning ]
+	Focus Node: kg:Lev_Landau
+	Result Path: :bornIn
+	Message: This person has no recorded birthplace.
+Validation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:message Literal("This person has no recorded birthplace.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path :bornIn ; sh:severity sh:Warning ]
+	Focus Node: kg:Louis_de_Broglie
+	Result Path: :bornIn
+	Message: This person has no recorded birthplace.
+Validation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:message Literal("This person has no recorded birthplace.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path :bornIn ; sh:severity sh:Warning ]
+	Focus Node: kg:UNESCO
+	Result Path: :bornIn
+	Message: This person has no recorded birthplace.
+Validation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:message Literal("This person has no recorded birthplace.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path :bornIn ; sh:severity sh:Warning ]
+	Focus Node: kg:Waleed_Tarar
+	Result Path: :bornIn
+	Message: This person has no recorded birthplace.
+Validation Result in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:message Literal("This person has no recorded birthplace.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path :bornIn ; sh:severity sh:Warning ]
+	Focus Node: kg:Wolfgang_Pauli
+	Result Path: :bornIn
+	Message: This person has no recorded birthplace.

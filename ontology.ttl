@@ -1,0 +1,44 @@
+@prefix :     <http://example.org/kg/23p-3007/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<http://example.org/kg/23p-3007/ontology> a owl:Ontology ;
+    rdfs:label "Ontology for AI3001 Assignment 1 (23P-3007)" .
+
+# ---------- Classes ----------
+:Person       a owl:Class ; rdfs:label "Person" .
+:Place        a owl:Class ; rdfs:label "Place" .
+:Organization a owl:Class ; rdfs:label "Organization" .
+:Award        a owl:Class ; rdfs:label "Award" .
+
+# ---------- Disjointness: nothing can belong to two of these ----------
+:Person       owl:disjointWith :Place , :Organization , :Award .
+:Place        owl:disjointWith :Organization , :Award .
+:Organization owl:disjointWith :Award .
+
+# ---------- Properties ----------
+:bornIn a owl:ObjectProperty , owl:FunctionalProperty ;   # at most one birthplace
+    rdfs:label  "born in" ;
+    rdfs:domain :Person ;
+    rdfs:range  :Place .
+
+:educatedAt a owl:ObjectProperty ;
+    rdfs:label  "educated at" ;
+    rdfs:domain :Person ;
+    rdfs:range  :Organization .
+
+:receivedAward a owl:ObjectProperty ;
+    rdfs:label  "received award" ;
+    rdfs:domain :Person ;
+    rdfs:range  :Award .
+
+:worksAt a owl:ObjectProperty ;
+    rdfs:label  "works at" ;
+    rdfs:domain :Person ;
+    rdfs:range  :Organization .
+
+:doctoralAdvisor a owl:ObjectProperty , owl:IrreflexiveProperty ;   # nobody advises themselves
+    rdfs:label  "doctoral advisor" ;
+    rdfs:domain :Person ;
+    rdfs:range  :Person .
