@@ -1,0 +1,9 @@
+PREFIX kg: <http://example.org/kg/23p-3007/>
+
+SELECT ?predicate (COUNT(*) AS ?count)
+WHERE {
+  ?s ?predicate ?o .
+  FILTER(STRSTARTS(STR(?predicate), STR(kg:)))
+}
+GROUP BY ?predicate
+ORDER BY DESC(?count)
