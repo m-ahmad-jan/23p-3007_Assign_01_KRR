@@ -1,0 +1,169 @@
+@prefix kg: <http://example.org/kg/23p-3007/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kg:Albert_Einstein a kg:Person ;
+    rdfs:label "Albert Einstein" ;
+    kg:bornIn kg:Ulm ;
+    kg:educatedAt kg:Catholic_elementary_school,
+        kg:federal_polytechnic_school,
+        kg:first_Solvay_Conference_on_Physics ;
+    kg:receivedAward kg:1921_Nobel_Prize_in_Physics,
+        kg:Nobel_Prize_in_Physics,
+        kg:a_Nobel_Prize,
+        kg:prize ;
+    kg:worksAt kg:Academy,
+        kg:Humboldt_University_of_Berlin,
+        kg:National_Association_for_the_Advancement_of_Colored_People_NAACP,
+        kg:Prussian_Academy_of_Sciences .
+
+kg:Antoine_Henri_Becquerel a kg:Person ;
+    rdfs:label "Antoine Henri Becquerel" ;
+    kg:bornIn kg:Paris .
+
+kg:Lev_Landau a kg:Person ;
+    rdfs:label "Lev Landau" ;
+    kg:educatedAt kg:Baku_Economical_Technical_School,
+        kg:gymnasium,
+        kg:university ;
+    kg:receivedAward kg:Nobel_Prize_in_Physics_for_his_development_of_a_mathematical,
+        kg:Stalin_Prize ;
+    kg:worksAt kg:Niels_Bohr_s_Institute_for_Theoretical_Physics .
+
+kg:Louis_de_Broglie a kg:Person ;
+    rdfs:label "Louis de Broglie" ;
+    kg:educatedAt kg:university ;
+    kg:receivedAward kg:Kalinga_Prize,
+        kg:Nobel_Prize_in_Physics ;
+    kg:worksAt kg:Le_Conseil_de_l_Union_Catholique_des_Scientifiques_Francais .
+
+kg:Pierre_Raymond a kg:Person ;
+    rdfs:label "Pierre Raymond" ;
+    kg:bornIn kg:Dieppe .
+
+kg:Saba_Hashmi a kg:Person ;
+    rdfs:label "Saba Hashmi" ;
+    kg:bornIn kg:Gujranwala ;
+    kg:doctoralAdvisor kg:Waleed_Tarar ;
+    kg:educatedAt kg:Calder_College_of_Science,
+        kg:Northgate_Institute_of_Physics ;
+    kg:receivedAward kg:Riverbend_Gold_Medal ;
+    kg:worksAt kg:Westmere_College_of_Science .
+
+kg:UNESCO a kg:Person ;
+    rdfs:label "UNESCO" ;
+    kg:receivedAward kg:first_Kalinga_Prize .
+
+kg:Wolfgang_Ernst_Pauli a kg:Person ;
+    rdfs:label "Wolfgang Ernst Pauli" ;
+    kg:bornIn kg:Vienna .
+
+kg:Wolfgang_Pauli a kg:Person ;
+    rdfs:label "Wolfgang Pauli" ;
+    kg:educatedAt kg:Döblinger_Gymnasium ;
+    kg:receivedAward kg:Lorentz_Medal,
+        kg:Max_Planck_Medal,
+        kg:Nobel_Prize_in_Physics .
+
+kg:1921_Nobel_Prize_in_Physics a kg:Award ;
+    rdfs:label "1921 Nobel Prize in Physics" .
+
+kg:Academy a kg:Organization ;
+    rdfs:label "Academy" .
+
+kg:Baku_Economical_Technical_School a kg:Organization ;
+    rdfs:label "Baku Economical Technical School" .
+
+kg:Calder_College_of_Science a kg:Organization ;
+    rdfs:label "Calder College of Science" .
+
+kg:Catholic_elementary_school a kg:Organization ;
+    rdfs:label "Catholic elementary school" .
+
+kg:Dieppe a kg:Place ;
+    rdfs:label "Dieppe" .
+
+kg:Döblinger_Gymnasium a kg:Organization ;
+    rdfs:label "Döblinger-Gymnasium" .
+
+kg:Gujranwala a kg:Place ;
+    rdfs:label "Gujranwala" .
+
+kg:Humboldt_University_of_Berlin a kg:Organization ;
+    rdfs:label "Humboldt University of Berlin" .
+
+kg:Kalinga_Prize a kg:Award ;
+    rdfs:label "Kalinga Prize" .
+
+kg:Le_Conseil_de_l_Union_Catholique_des_Scientifiques_Francais a kg:Organization ;
+    rdfs:label "Le Conseil de l'Union Catholique des Scientifiques Francais" .
+
+kg:Lorentz_Medal a kg:Award ;
+    rdfs:label "Lorentz Medal" .
+
+kg:Max_Planck_Medal a kg:Award ;
+    rdfs:label "Max Planck Medal" .
+
+kg:National_Association_for_the_Advancement_of_Colored_People_NAACP a kg:Organization ;
+    rdfs:label "National Association for the Advancement of Colored People (NAACP" .
+
+kg:Niels_Bohr_s_Institute_for_Theoretical_Physics a kg:Organization ;
+    rdfs:label "Niels Bohr's Institute for Theoretical Physics" .
+
+kg:Nobel_Prize_in_Physics_for_his_development_of_a_mathematical a kg:Award ;
+    rdfs:label "Nobel Prize in Physics for his development of a mathematical" .
+
+kg:Northgate_Institute_of_Physics a kg:Organization ;
+    rdfs:label "Northgate Institute of Physics" .
+
+kg:Paris a kg:Place ;
+    rdfs:label "Paris" .
+
+kg:Prussian_Academy_of_Sciences a kg:Organization ;
+    rdfs:label "Prussian Academy of Sciences" .
+
+kg:Riverbend_Gold_Medal a kg:Award ;
+    rdfs:label "Riverbend Gold Medal" .
+
+kg:Stalin_Prize a kg:Award ;
+    rdfs:label "Stalin Prize" .
+
+kg:Thornfield_College_of_Science a kg:Organization ;
+    rdfs:label "Thornfield College of Science" .
+
+kg:Ulm a kg:Place ;
+    rdfs:label "Ulm" .
+
+kg:Vienna a kg:Place ;
+    rdfs:label "Vienna" .
+
+kg:Waleed_Tarar a kg:Person ;
+    rdfs:label "Waleed Tarar" ;
+    kg:worksAt kg:Thornfield_College_of_Science .
+
+kg:Westmere_College_of_Science a kg:Organization ;
+    rdfs:label "Westmere College of Science" .
+
+kg:a_Nobel_Prize a kg:Award ;
+    rdfs:label "a Nobel Prize" .
+
+kg:federal_polytechnic_school a kg:Organization ;
+    rdfs:label "federal polytechnic school" .
+
+kg:first_Kalinga_Prize a kg:Award ;
+    rdfs:label "first Kalinga Prize" .
+
+kg:first_Solvay_Conference_on_Physics a kg:Organization ;
+    rdfs:label "first Solvay Conference on Physics" .
+
+kg:gymnasium a kg:Organization ;
+    rdfs:label "gymnasium" .
+
+kg:prize a kg:Award ;
+    rdfs:label "prize" .
+
+kg:university a kg:Organization ;
+    rdfs:label "university" .
+
+kg:Nobel_Prize_in_Physics a kg:Award ;
+    rdfs:label "Nobel Prize in Physics" .
+

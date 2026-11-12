@@ -1,0 +1,6 @@
+predicate,count
+http://example.org/kg/23p-3007/receivedAward,13
+http://example.org/kg/23p-3007/educatedAt,10
+http://example.org/kg/23p-3007/worksAt,8
+http://example.org/kg/23p-3007/bornIn,5
+http://example.org/kg/23p-3007/doctoralAdvisor,1
