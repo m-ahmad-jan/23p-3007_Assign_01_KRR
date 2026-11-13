@@ -3,7 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
-# ---------- What a Person must look like ----------
 :PersonShape a sh:NodeShape ;
     sh:targetClass :Person ;
 
@@ -52,7 +51,7 @@
         sh:datatype xsd:string ;
     ] .
 
-# ---------- Disjointness: no node may have two of these types ----------
+#Disjointness:
 :PersonDisjointShape a sh:NodeShape ;
     sh:targetClass :Person ;
     sh:not [ sh:or ( [ sh:class :Place ] [ sh:class :Organization ] [ sh:class :Award ] ) ] ;

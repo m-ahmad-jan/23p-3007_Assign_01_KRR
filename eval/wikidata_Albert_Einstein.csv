@@ -1,0 +1,44 @@
+predicate,value_id,value_label,value_aliases
+worksAt,Q31519,Charles University,Charles-Ferdinand University|cuni.cz|Karls-Universität Prag|Prague University|Universitas Carolina|University of Prague|Univerzita Karlova|Univerzita Karlova v Praze
+worksAt,Q11942,ETH Zurich,"Eidgenoessiche Technische Hochschule Zuerich|E.T.H.Z.|Eidgenoessische Technische Hochschule Zuerich|Eidgenössische Technische Hochschule Zürich|ETH Zürich|ETH, Zürich|ETHZ|Federal Institute of Technology, Zürich|SFIT|Swiss Federal Institute of Technology in Zurich"
+educatedAt,Q11942,ETH Zurich,"Eidgenoessiche Technische Hochschule Zuerich|E.T.H.Z.|Eidgenoessische Technische Hochschule Zuerich|Eidgenössische Technische Hochschule Zürich|ETH Zürich|ETH, Zürich|ETHZ|Federal Institute of Technology, Zürich|SFIT|Swiss Federal Institute of Technology in Zurich"
+worksAt,Q21578,Princeton University,Princeton|College of New Jersey|Princeton College|princeton.edu|University of Princeton
+bornIn,Q3012,Ulm,Ulm alb-Donau
+worksAt,Q70,Bern,Berne|Berna|city of Bern
+receivedAward,Q38104,Nobel Prize in Physics,Physics Nobel Prize
+doctoralAdvisor,Q97154,Heinrich Burkhardt,Heinrich Friedrich Karl Ludwig Burkhardt
+worksAt,Q152087,Humboldt-Universität zu Berlin,HU Berlin|Humboldt University|Universitas Humboldtiana Berolinensis|Universität zu Berlin|University of Berlin|Humboldt University of Berlin
+worksAt,Q156598,Leiden University,Leiden Univ.|Leyden University|Rijksuniversiteit Leiden|Rijksuniversiteit te Leiden|Universiteit Leiden|universiteitleiden.nl|University of Leiden|University of Leyden|ULeiden
+worksAt,Q168756,"University of California, Berkeley",University of California College of Agriculture|berkeley.edu|UCB|Berkeley University|Cal-Berkeley|U.C. Berkeley|Univ. of California Berkeley|University of California at Berkeley|University of California Berkeley|University of California–Berkeley
+worksAt,Q206702,University of Zurich,Uni Zurich|Uni Zürich|Universitat Zurich|Universität Zürich|University of Zürich|UZH|uzh.ch
+educatedAt,Q206702,University of Zurich,Uni Zurich|Uni Zürich|Universitat Zurich|Universität Zürich|University of Zürich|UZH|uzh.ch
+worksAt,Q659080,University of Bern,Bern University|UNIBE|unibe.ch
+worksAt,Q819187,Deutsche Physikalische Gesellschaft,German Physical Society
+receivedAward,Q1522873,Josiah Willard Gibbs Lectureship,Gibbs Lecture|Gibbs Lectureship
+worksAt,Q1729754,German University in Prague,Charles-Ferdinand German University|Karl-Ferdinands-Universität
+educatedAt,Q1876751,Luitpold-Gymnasium,Luitpold-Gymnasium München
+receivedAward,Q14906020,Foreign Member of the Royal Society,ForMemRS
+receivedAward,Q121359767,Great Immigrants Award,Carnegie Corporation of New York Great Immigrant|Carnegie Corporation of New York Great Immigrants|Carnegie Great Immigrant award|Carnegie Great Immigrants Award|Great Immigrant Award|Great Immigrants award
+receivedAward,Q125121451,Honorary Fellow of the Royal Society Te Apārangi,HonFRSNZ|Ngā Ahurei Honore a Te Apārangi Honorary Fellows
+receivedAward,Q126418747,doctor honoris causa from the University of Paris,Honorary doctor of the Sorbonne
+worksAt,Q329464,Royal Prussian Academy of Sciences,Königlich-Preußische Akademie der Wissenschaften|The Royal Prussian Academy of Sciences
+educatedAt,Q435651,Old Kantonsschule (Albert Einstein House),Alte Kantonsschule (Albert-Einstein-Haus)
+worksAt,Q635642,Institute for Advanced Study,IAS|Princeton Institute for Advanced Study
+doctoralAdvisor,Q116635,Heinrich Friedrich Weber,
+receivedAward,Q317038,Max Planck Medal,
+worksAt,Q685539,Swiss Federal Institute of Intellectual Property,
+worksAt,Q708038,Kaiser Wilhelm Society,
+receivedAward,Q753072,Gold Medal of the Royal Astronomical Society,
+receivedAward,Q808424,Barnard Medal for Meritorious Service to Science,
+receivedAward,Q1419938,Matteucci Medal,
+receivedAward,Q1711648,Prix Jules Janssen,
+receivedAward,Q3141777,Franklin Medal,
+doctoralAdvisor,Q4175282,Alfred Kleiner,
+receivedAward,Q14705795,New Jersey Hall of Fame,
+receivedAward,Q15056034,Pour le Mérite for Sciences and Arts order,
+receivedAward,Q25287226,Honorary doctorate from the University of Geneva,
+receivedAward,Q28861731,honorary doctor of the Hebrew University of Jerusalem,
+receivedAward,Q42309226,honorary doctorate from Princeton University,
+receivedAward,Q50621171,honorary doctor of the University of Madrid Complutense,
+receivedAward,Q134613391,"honorary member of the Physics Association (Frankfurt am Main, Germany)",
+receivedAward,Q28003,Copley Medal,

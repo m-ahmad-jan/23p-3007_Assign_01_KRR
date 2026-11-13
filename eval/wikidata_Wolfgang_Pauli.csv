@@ -1,0 +1,21 @@
+predicate,value_id,value_label,value_aliases
+worksAt,Q21578,Princeton University,Princeton College|princeton.edu|University of Princeton|Princeton|College of New Jersey
+receivedAward,Q38104,Nobel Prize in Physics,Physics Nobel Prize
+worksAt,Q152838,University of Göttingen,Georg-August-Universität Göttingen|Georg-August-University Göttingen|uni-goettingen|uni-goettingen.de|Universität Göttingen|University of Goettingen|University of Gottingen|GAU Göttingen|Georg August University Göttingen|Georg August University of Göttingen|Georg August University
+bornIn,Q1741,Vienna,"Vienna, Austria"
+worksAt,Q11942,ETH Zurich,"E.T.H.Z.|Eidgenoessische Technische Hochschule Zuerich|Eidgenössische Technische Hochschule Zürich|ETH Zürich|ETH, Zürich|ETHZ|Federal Institute of Technology, Zürich|SFIT|Swiss Federal Institute of Technology in Zurich|Eidgenoessiche Technische Hochschule Zuerich"
+educatedAt,Q55044,LMU Munich,LMU Munich|Ludwig-Maximilians-Universität|Ludwig-Maximilians-Universität München|University of Munich|Ludwig-Maximilians-Universität in Munich|Ludwig-Maximilians-Universität zu München
+worksAt,Q156725,University of Hamburg,Hamburg University|Universität Hamburg
+worksAt,Q217741,Purdue University,PU|Indiana Agricultural College
+receivedAward,Q14906020,Foreign Member of the Royal Society,ForMemRS
+educatedAt,Q15109969,Bundesgymnasium Döbling,Döblinger-Gymnasium
+worksAt,Q230492,University of Michigan,"UM|U of M|The University of Michigan|U Michigan Ann Arbor|U of Michigan|U-M|umich|UMich|umich.edu|umichigan|UMichigan|Univ of Michigan|Univ. of Michigan|University of Michigan Ann Arbor|University of Michigan-Ann Arbor|University of Michigan–Ann Arbor|University of Michigan, Ann Arbor|uofmichigan"
+worksAt,Q263761,University of Copenhagen Niels Bohr Institute,"Institute of Theoretical Physics, Copenhagen"
+doctoralAdvisor,Q77078,Arnold Sommerfeld,
+receivedAward,Q121594,professor,
+receivedAward,Q317038,Max Planck Medal,
+receivedAward,Q838936,Lorentz Medal,
+receivedAward,Q1419938,Matteucci Medal,
+receivedAward,Q3141777,Franklin Medal,
+receivedAward,Q34476636,honorary doctor of the University of Vienna,
+receivedAward,Q56509042,honorary doctor of the University of Hamburg,

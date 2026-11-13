@@ -6,19 +6,19 @@
 <http://example.org/kg/23p-3007/ontology> a owl:Ontology ;
     rdfs:label "Ontology for AI3001 Assignment 1 (23P-3007)" .
 
-# ---------- Classes ----------
+#Classes
 :Person       a owl:Class ; rdfs:label "Person" .
 :Place        a owl:Class ; rdfs:label "Place" .
 :Organization a owl:Class ; rdfs:label "Organization" .
 :Award        a owl:Class ; rdfs:label "Award" .
 
-# ---------- Disjointness: nothing can belong to two of these ----------
+#Disjointness: nothing can belong to two of these
 :Person       owl:disjointWith :Place , :Organization , :Award .
 :Place        owl:disjointWith :Organization , :Award .
 :Organization owl:disjointWith :Award .
 
-# ---------- Properties ----------
-:bornIn a owl:ObjectProperty , owl:FunctionalProperty ;   # at most one birthplace
+#Properties
+:bornIn a owl:ObjectProperty , owl:FunctionalProperty ;
     rdfs:label  "born in" ;
     rdfs:domain :Person ;
     rdfs:range  :Place .
@@ -38,7 +38,7 @@
     rdfs:domain :Person ;
     rdfs:range  :Organization .
 
-:doctoralAdvisor a owl:ObjectProperty , owl:IrreflexiveProperty ;   # nobody advises themselves
+:doctoralAdvisor a owl:ObjectProperty , owl:IrreflexiveProperty ;
     rdfs:label  "doctoral advisor" ;
     rdfs:domain :Person ;
     rdfs:range  :Person .

@@ -102,14 +102,25 @@ Names are cleaned (titles like *Dr.*, leading *the*, possessive *'s* removed). I
 word of a name appears in a full name already seen in the document, the two are merged
 ("Dr. Hashmi" → "Hashmi" → "Saba Hashmi"). Every merge is logged in `out/merges.csv`.
 
-**Merges made:** _N_ (fill in after the full run).
+**Merges made: 60** (listed in `out/merges.csv`).
+
+Most are correct surname-to-full-name merges (e.g. "Hitler" → "Adolf Hitler"). Known failures:
+- **First names are ambiguous:** "Paul" was merged into "Paul Dirac" in the Einstein article,
+  where it refers to Paul Winteler; the rule picks the first known name that contains the word.
+- **Shared surnames:** "Becquerel" always becomes "Henri Becquerel", although his father and son
+  appear in the same article.
+- **Bad spans become known names:** spaCy tagged "œuvre de Paul Langevin" as a person, and the
+  correct "Paul Langevin" was then merged into it.
+- **Variants are not merged:** "C. G. Jung" and "Carl Gustav Jung" remain two nodes, and the
+  longer "Wolfgang Ernst Pauli" is not merged into "Wolfgang Pauli".
 
 ### Provenance and duplicates
 Every triple records its source file and sentence. If the same (subject, predicate,
 object) appears more than once, only the first occurrence is kept.
 
 ### Known limitations
-1."became professor at X": the `at` attaches to *professor*, not the verb, so it is missed.
-2."studied under Sommerfeld" is not covered by Rule 5.
-3.The pronoun heuristic fails when "he" refers to a third person (e.g. a father).
-4.Surname-only merging can join different people who share a surname.
+1. "became professor at X": the `at` attaches to *professor*, not the verb, so it is missed.
+2. Indirect advisor phrasing ("dissertation approved by Kleiner", "studied under Sommerfeld") is not covered by Rule 5.
+3. Hypothetical statements ("if he were to win a Nobel Prize") are treated as facts; only `neg` is checked.
+4. The pronoun heuristic fails when "he" refers to a third person (e.g. a father).
+5. Different names for one entity (e.g. "federal polytechnic school" vs "ETH Zurich")

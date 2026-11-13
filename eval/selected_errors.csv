@@ -1,0 +1,9 @@
+type,position,subject,predicate,object,source_doc,sentence
+FP,4,Albert Einstein,worksAt,Academy,Albert_Einstein.txt,"He duly joined the Academy on 24 July 1913, and moved into an apartment in the Berlin district of Dahlem on 1 April 1914."
+FP,5,Albert Einstein,worksAt,Prussian Academy of Sciences,Albert_Einstein.txt,"In 1914, he moved to Berlin to join the Prussian Academy of Sciences and the Humboldt University of Berlin, becoming director of the Kaiser Wilhelm Institute for Physics in 1917; he also became a Prussian and consequently also German citizen again."
+FP,8,Louis de Broglie,worksAt,Le Conseil de l'Union Catholique des Scientifiques Francais,Louis_de_Broglie.txt,"He was asked to join Le Conseil de l'Union Catholique des Scientifiques Francais, but declined because he was non-religious."
+FP,13,Albert Einstein,receivedAward,prize,Albert_Einstein.txt,"As part of the divorce settlement, Einstein agreed that if he were to win a Nobel Prize, he would give the money that he received to Marić; he won the prize two years later."
+FN,1,Albert Einstein,doctoralAdvisor,Alfred Kleiner,,
+FN,3,Albert Einstein,doctoralAdvisor,Heinrich Friedrich Weber,,
+FN,4,Albert Einstein,educatedAt,ETH Zurich,,
+FN,11,Albert Einstein,receivedAward,Foreign Member of the Royal Society,,

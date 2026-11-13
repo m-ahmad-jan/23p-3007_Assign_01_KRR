@@ -1,0 +1,15 @@
+predicate,value_id,value_label,value_aliases
+worksAt,Q273523,École Nationale des Ponts et Chaussées,École Nationale des Ponts et Chaussées|ENPC|Ecole des Ponts et Chaussees|École des Ponts et Chaussees|École des Ponts et Chaussées|Ecole des Ponts ParisTech|École des Ponts ParisTech|Ecole Nationale des Ponts et Chaussees|Ecole Nationale des Ponts et Chaussées|Les Ponts|National School of Bridges and Roads|Ponts et chaussees|Ponts et Chaussées
+educatedAt,Q273523,École Nationale des Ponts et Chaussées,École Nationale des Ponts et Chaussées|ENPC|Ecole des Ponts et Chaussees|École des Ponts et Chaussees|École des Ponts et Chaussées|Ecole des Ponts ParisTech|École des Ponts ParisTech|Ecole Nationale des Ponts et Chaussees|Ecole Nationale des Ponts et Chaussées|Les Ponts|National School of Bridges and Roads|Ponts et chaussees|Ponts et Chaussées
+receivedAward,Q38104,Nobel Prize in Physics,Physics Nobel Prize
+worksAt,Q273626,École polytechnique,Polytechnique|Ecole polytechnique|École polytechnique (France)|Ecole polytechnique (Paris)|L'École Polytechnique|L'X
+educatedAt,Q273626,École polytechnique,Polytechnique|Ecole polytechnique|École polytechnique (France)|Ecole polytechnique (Paris)|L'École Polytechnique|L'X
+receivedAward,Q10855195,Officer of the Legion of Honour,Officier of the Légion d'honneur
+receivedAward,Q14906020,Foreign Member of the Royal Society,ForMemRS
+worksAt,Q838691,Muséum national d'histoire naturelle,"National Museum of Natural History|Musée d'histoire naturelle|MNHN|French National Museum of Natural History|MNHN - Museum national d'Histoire naturelle|MNHP|Muséum national d'histoire naturelle, Paris"
+educatedAt,Q1059546,Lycée Louis-le-Grand,Collège de Clermont|lycee Louis le Grand|lycée Louis le Grand|Lycee Louis-le-Grand
+receivedAward,Q285167,Rumford Medal,
+receivedAward,Q808424,Barnard Medal for Meritorious Service to Science,
+receivedAward,Q1562616,Helmholtz Medal,
+receivedAward,Q30727734,La Caze Prize of the Academy of Sciences,
+bornIn,Q90,Paris,Lutetia|City of Light|City of Love

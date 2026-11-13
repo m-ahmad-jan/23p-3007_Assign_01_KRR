@@ -1,0 +1,109 @@
+subject,predicate,object,wikidata_id
+Albert Einstein,doctoralAdvisor,Alfred Kleiner,Q4175282
+Albert Einstein,doctoralAdvisor,Heinrich Burkhardt,Q97154
+Albert Einstein,doctoralAdvisor,Heinrich Friedrich Weber,Q116635
+Albert Einstein,educatedAt,ETH Zurich,Q11942
+Albert Einstein,educatedAt,Luitpold-Gymnasium,Q1876751
+Albert Einstein,educatedAt,Old Kantonsschule (Albert Einstein House),Q435651
+Albert Einstein,educatedAt,University of Zurich,Q206702
+Albert Einstein,receivedAward,Barnard Medal for Meritorious Service to Science,Q808424
+Albert Einstein,receivedAward,Copley Medal,Q28003
+Albert Einstein,receivedAward,doctor honoris causa from the University of Paris,Q126418747
+Albert Einstein,receivedAward,Foreign Member of the Royal Society,Q14906020
+Albert Einstein,receivedAward,Franklin Medal,Q3141777
+Albert Einstein,receivedAward,Gold Medal of the Royal Astronomical Society,Q753072
+Albert Einstein,receivedAward,Great Immigrants Award,Q121359767
+Albert Einstein,receivedAward,honorary doctor of the Hebrew University of Jerusalem,Q28861731
+Albert Einstein,receivedAward,honorary doctor of the University of Madrid Complutense,Q50621171
+Albert Einstein,receivedAward,honorary doctorate from Princeton University,Q42309226
+Albert Einstein,receivedAward,Honorary doctorate from the University of Geneva,Q25287226
+Albert Einstein,receivedAward,Honorary Fellow of the Royal Society Te Apārangi,Q125121451
+Albert Einstein,receivedAward,"honorary member of the Physics Association (Frankfurt am Main, Germany)",Q134613391
+Albert Einstein,receivedAward,Josiah Willard Gibbs Lectureship,Q1522873
+Albert Einstein,receivedAward,Matteucci Medal,Q1419938
+Albert Einstein,receivedAward,Max Planck Medal,Q317038
+Albert Einstein,receivedAward,New Jersey Hall of Fame,Q14705795
+Albert Einstein,receivedAward,Pour le Mérite for Sciences and Arts order,Q15056034
+Albert Einstein,receivedAward,Prix Jules Janssen,Q1711648
+Albert Einstein,worksAt,Bern,Q70
+Albert Einstein,worksAt,Charles University,Q31519
+Albert Einstein,worksAt,Deutsche Physikalische Gesellschaft,Q819187
+Albert Einstein,worksAt,ETH Zurich,Q11942
+Albert Einstein,worksAt,German University in Prague,Q1729754
+Albert Einstein,worksAt,Institute for Advanced Study,Q635642
+Albert Einstein,worksAt,Kaiser Wilhelm Society,Q708038
+Albert Einstein,worksAt,Leiden University,Q156598
+Albert Einstein,worksAt,Princeton University,Q21578
+Albert Einstein,worksAt,Royal Prussian Academy of Sciences,Q329464
+Albert Einstein,worksAt,Swiss Federal Institute of Intellectual Property,Q685539
+Albert Einstein,worksAt,University of Bern,Q659080
+Albert Einstein,worksAt,"University of California, Berkeley",Q168756
+Albert Einstein,worksAt,University of Zurich,Q206702
+Henri Becquerel,educatedAt,Lycée Louis-le-Grand,Q1059546
+Henri Becquerel,educatedAt,École Nationale des Ponts et Chaussées,Q273523
+Henri Becquerel,educatedAt,École polytechnique,Q273626
+Henri Becquerel,receivedAward,Barnard Medal for Meritorious Service to Science,Q808424
+Henri Becquerel,receivedAward,Foreign Member of the Royal Society,Q14906020
+Henri Becquerel,receivedAward,Helmholtz Medal,Q1562616
+Henri Becquerel,receivedAward,La Caze Prize of the Academy of Sciences,Q30727734
+Henri Becquerel,receivedAward,Nobel Prize in Physics,Q38104
+Henri Becquerel,receivedAward,Officer of the Legion of Honour,Q10855195
+Henri Becquerel,receivedAward,Rumford Medal,Q285167
+Henri Becquerel,worksAt,Muséum national d'histoire naturelle,Q838691
+Henri Becquerel,worksAt,École Nationale des Ponts et Chaussées,Q273523
+Henri Becquerel,worksAt,École polytechnique,Q273626
+Lev Landau,bornIn,Baku,Q9248
+Lev Landau,doctoralAdvisor,Abram Ioffe,Q331067
+Lev Landau,educatedAt,Baku Polytechnicum,Q4849587
+Lev Landau,educatedAt,Baku State University,Q1633799
+Lev Landau,educatedAt,Faculty of Physics and Mathematics of the Saint Petersburg University,Q4483558
+Lev Landau,receivedAward,Foreign Member of the Royal Society,Q14906020
+Lev Landau,receivedAward,Fritz London Award,Q246592
+Lev Landau,receivedAward,Hero of Socialist Labour,Q208167
+Lev Landau,receivedAward,Lenin Prize,Q51067
+Lev Landau,receivedAward,Max Planck Medal,Q317038
+Lev Landau,receivedAward,Order of Lenin,Q185493
+Lev Landau,receivedAward,Order of the Badge of Honour,Q960966
+Lev Landau,receivedAward,Order of the Red Banner of Labour,Q478850
+Lev Landau,receivedAward,"Stalin Prize, 2nd degree",Q56669015
+Lev Landau,receivedAward,"State Stalin Prize, 1st degree",Q56669004
+Lev Landau,worksAt,Ioffe Institute,Q32637
+Lev Landau,worksAt,Kharkiv Institute of Physics and Technology,Q4496359
+Lev Landau,worksAt,Lomonosov Moscow State University,Q13164
+Lev Landau,worksAt,Moscow Institute of Physics and Technology,Q1367256
+Lev Landau,worksAt,National University of Kharkiv,Q1458695
+Lev Landau,worksAt,P.L. Kapitza Institute for Physical Problems RAS,Q4201800
+Louis de Broglie,bornIn,Dieppe,Q183557
+Louis de Broglie,doctoralAdvisor,Paul Langevin,Q25320
+Louis de Broglie,educatedAt,Lycée Janson-de-Sailly,Q1431541
+Louis de Broglie,educatedAt,Science Faculty of Paris,Q3064332
+Louis de Broglie,receivedAward,CNRS Gold medal,Q1957671
+Louis de Broglie,receivedAward,Commander of the French Order of Academic Palms,Q14637188
+Louis de Broglie,receivedAward,Foreign Member of the Royal Society,Q14906020
+Louis de Broglie,receivedAward,Grand Cross of the Legion of Honour,Q10855226
+Louis de Broglie,receivedAward,Great Gold medal of the Société d'Encouragement au Progrès,Q24954950
+Louis de Broglie,receivedAward,Helmholtz Medal,Q1562616
+Louis de Broglie,receivedAward,honorary doctor of the University of Athens,Q56239664
+Louis de Broglie,receivedAward,Honorary doctor of the University of Lausanne,Q28911007
+Louis de Broglie,receivedAward,honorary doctor of the University of Warsaw,Q9208584
+Louis de Broglie,receivedAward,honorary doctorate at the Laval University,Q51527076
+Louis de Broglie,receivedAward,Max Planck Medal,Q317038
+Louis de Broglie,receivedAward,Officer of the Order of Leopold,Q14900498
+Louis de Broglie,worksAt,Institut Henri Poincaré,Q1130982
+Louis de Broglie,worksAt,Science Faculty of Paris,Q3064332
+Louis de Broglie,worksAt,Sorbonne,Q214654
+Wolfgang Pauli,doctoralAdvisor,Arnold Sommerfeld,Q77078
+Wolfgang Pauli,educatedAt,LMU Munich,Q55044
+Wolfgang Pauli,receivedAward,Foreign Member of the Royal Society,Q14906020
+Wolfgang Pauli,receivedAward,Franklin Medal,Q3141777
+Wolfgang Pauli,receivedAward,honorary doctor of the University of Hamburg,Q56509042
+Wolfgang Pauli,receivedAward,honorary doctor of the University of Vienna,Q34476636
+Wolfgang Pauli,receivedAward,Matteucci Medal,Q1419938
+Wolfgang Pauli,receivedAward,professor,Q121594
+Wolfgang Pauli,worksAt,ETH Zurich,Q11942
+Wolfgang Pauli,worksAt,Princeton University,Q21578
+Wolfgang Pauli,worksAt,Purdue University,Q217741
+Wolfgang Pauli,worksAt,University of Copenhagen Niels Bohr Institute,Q263761
+Wolfgang Pauli,worksAt,University of Göttingen,Q152838
+Wolfgang Pauli,worksAt,University of Hamburg,Q156725
+Wolfgang Pauli,worksAt,University of Michigan,Q230492
