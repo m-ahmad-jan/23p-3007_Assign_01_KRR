@@ -8,6 +8,8 @@ nlp=spacy.load("en_core_web_sm")
 HE_WORDS={"he", "him", "his"}
 SHE_WORDS ={"she", "her", "hers"}
 TITLES ={"dr", "dr.", "prof", "prof.", "professor", "sir", "the"}
+LEADING_JUNK ={"a", "an", "first", "second", "third", "fourth", "fifth"}
+NOT_EMPLOYERS ={"conference","society", "party", "association", "committee", "league"}
 
 ORG_WORDS= {"university","institute","college",  "school", "gymnasium",
              "polytechnic", "academy", "laboratory", "eth", "sorbonne"}
@@ -22,11 +24,15 @@ merges=set()
 def clean(text):
     text =text.strip().strip('"')
     if text.endswith("'s"):
-        text=text[:-2]
-    words = text.split()
-    while words and words[0].lower() in TITLES:
+        text= text[:-2]
+    text= text.split(" (")[0] 
+    words =text.split()
+    while words and (words[0].lower() in TITLES
+                     or words[0].lower() in LEADING_JUNK
+                     or words[0].isdigit()): 
         words.pop(0)
     return " ".join(words)
+
 
 
 def full_phrase(token):
@@ -49,14 +55,20 @@ def full_phrase(token):
     return clean(" ".join(words))
 
 
+
 def is_org(token, name):
-    if token.ent_type_ in ("ORG","FAC"):
+    words = name.split()
+    if not any(w[0].isupper() for w in words):
+        return False
+    for w in words:
+        if w.lower() in NOT_EMPLOYERS:
+            return False
+    if token.ent_type_ in ("ORG", "FAC"):
         return True
-    for word in name.split():
-        if word.lower() in ORG_WORDS:
+    for w in words:
+        if w.lower() in ORG_WORDS:
             return True
     return False
-
 
 def is_award(name):
     for word in name.split():
@@ -188,7 +200,7 @@ def extract(sent, state):
         if lemma in ("receive", "win", "award", "earn"):
             person = who_is(get_subject(tok), state)
             for obj in direct_objects(tok):
-                name = full_phrase(obj)
+                name = full_phrase(obj).split(" for ")[0]
                 if is_award(name):
                     triples.append((person, "receivedAward", name))
 
